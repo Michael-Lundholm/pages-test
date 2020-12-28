@@ -1,0 +1,28 @@
+.header {
+    font-size: 1.3em;
+    position: sticky;
+    top: 0;
+
+    > nav {
+        height: 2em;
+        background-color: honeydew;
+        box-shadow: 0 0 8px;
+        padding: 0 16px;
+    }
+
+    &__links {
+        height: 100%;
+        
+        > a {
+            text-decoration: none;
+            color: black;
+            padding: 0 15px;
+            margin: 0 1px;
+            box-shadow: 0 0 4px black;
+        }
+
+        > a:hover {
+            background-color: ivory;
+        }
+    }
+}
